@@ -3,7 +3,7 @@ name: youthshare
 on:
   workflow_dispatch:
   schedule:
-     - cron: '11 0-23/2 * * *'
+     - cron: '15 8-23 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest    
